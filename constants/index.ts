@@ -396,7 +396,7 @@ export const Projects = [
   },
   {
     title: "Typescript",
-    text: "A simple Billing system. Event-Driven Architecture with 3 NestJS microservices for User Authentication, Ordering & Billing. Tech stack: JWT, RabbitMQ, MongoDB, docker-compose.",
+    text: "A simple Billing system. Event-Driven microservices for User Auth, Ordering and Billing. Tech stack: JWT, RabbitMQ, MongoDB, docker-compose.",
     src: "/nestjs-rabbitmq-ms.png",
   },
   {
@@ -411,7 +411,7 @@ export const Projects = [
   },
   {
     title: "Java",
-    text: "A sample Ordering system. Event-Driven microservices for User/Order/Payment/Shipment. Tech stack: AxonIQ (saga pattern), Spring Boot, REST, JPA, Oracle DB, Kafka, Openshift.",
+    text: "A sample Ordering system. Event-Driven microservices for User, Order, Payment, Shipment. Tech stack: AxonIQ (saga pattern), Spring Boot, REST, JPA, Oracle DB, Kafka, Openshift.",
     src: "/axoniq-saga-java-app.png",
   },
   {
@@ -430,7 +430,26 @@ export const Projects = [
     text: "A sample chat app. Technological stack: Spring WebFlux, Kotlin Extensions and Coroutines, streaming with RSocket.",
     src: "/spring-webflux-kotlin-rsocket.png",
   },
-
+  {
+    title: "Python",
+    text: "Simple Video2Audio Converter. Microservices for Gateway, User Auth, Converter and Notification. Tech stack: Flask, JWT, RabbitMQ, MongoDB, MySQL, Docker/K8s.",
+    src: "/microservices-python.png",
+  },
+  {
+    title: "Python",
+    text: "Pytorch demo project. Implementation of various NNs, Transfer Learning and so on. Tech stack: Pytorch, Numpy, Matplotlib.",
+    src: "/neural-networks-with-pytorch.png",
+  },
+  {
+    title: "Python",
+    text: "nanogpt network for text generation (1M params).",
+    src: "/nanogpt-with-pytorch.png",
+  },
+  {
+    title: "Python",
+    text: "2 apps powered by Langchain: RAG customization of LLM general model, using provided knowledge base: 1. CSV files, 2. Database.",
+    src: "/llm_langchain_rag_python.png",
+  },
 
 ];
 
