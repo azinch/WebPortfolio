@@ -386,7 +386,7 @@ export const Socials = [
 export const Projects = [
   {
     title: "Typescript (github.com/azinch/WebPortfolio)",
-    text: "My portfolio. Tech stack: Next 14, React, Tailwind, Framer Motion, Axios, Nodemailer.",
+    text: "My Portfolio. Tech stack: Next 14, React, Tailwind, Framer Motion, Axios, Nodemailer.",
     src: "/WebPortfolio.png",
   },
   {
@@ -401,7 +401,7 @@ export const Projects = [
   },
   {
     title: "Golang",
-    text: "A simple Bank (create & manage bank accounts). Tech stack: Gin http, PostgreSQL, Redis, gRPC, Asyncq, K8s.",
+    text: "Bank services (create & manage bank accounts). Tech stack: Gin http, PostgreSQL, Redis, gRPC, Asyncq, K8s.",
     src: "/simplebank.png",
   },
   {
@@ -422,17 +422,17 @@ export const Projects = [
 
   {
     title: "Kotlin",
-    text: "Simple blog app. Tech stack: Spring Boot, JPA, H2 database, Mustache templates for UI.",
+    text: "Simple Blog app. Tech stack: Spring Boot, JPA, H2 database, Mustache templates for UI.",
     src: "/spring-kotlin-blog-app.png",
   },
   {
     title: "Kotlin",
-    text: "A sample chat app. Technological stack: Spring WebFlux, Kotlin Extensions and Coroutines, streaming with RSocket.",
+    text: "Chat app. Technological stack: Spring WebFlux, Kotlin Extensions and Coroutines, streaming with RSocket.",
     src: "/spring-webflux-kotlin-rsocket.png",
   },
   {
     title: "Python",
-    text: "Simple Video2Audio Converter. Microservices for Gateway, User Auth, Converter and Notification. Tech stack: Flask, JWT, RabbitMQ, MongoDB, MySQL, Docker/K8s.",
+    text: "Video2Audio Converter. Microservices for Gateway, User Auth, Converter and Notification. Tech stack: Flask, JWT, RabbitMQ, MongoDB, MySQL, Docker/K8s.",
     src: "/microservices-python.png",
   },
   {
@@ -442,7 +442,7 @@ export const Projects = [
   },
   {
     title: "Python",
-    text: "nanogpt network for text generation (1M params).",
+    text: "NanoGPT network for text generation (1M params).",
     src: "/nanogpt-with-pytorch.png",
   },
   {
