@@ -400,6 +400,11 @@ export const Projects = [
     src: "/nestjs-rabbitmq-ms.png",
   },
   {
+    title: "Typescript",
+    text: "GRPC microservices: frontend apigateway receives external request via REST and communicates it to backend auth through GRPC, to update internal database. Tech stack: GRPC, REST.",
+    src: "/nestjs-grpc.png",
+  },
+  {
     title: "Golang",
     text: "Bank services (create & manage bank accounts). Tech stack: Gin http, PostgreSQL, Redis, gRPC, Asyncq, K8s.",
     src: "/simplebank.png",
