@@ -30,8 +30,8 @@ const Navbar = () =>
         {Socials.map((social) => (
           <Link
             key={social.name}
-            href={social.name === "LinkedIn" ? social.link : "#"} // Conditionally set href
-            target={social.name === "LinkedIn" ? "_blank" : undefined} // Open LinkedIn in new window
+            href={social.link} // Conditionally set href
+            target="_blank" // Open LinkedIn in new window
             rel="noopener noreferrer"
             className={social.name === "Discord" ? "pointer-events-none" : ""} // Disable pointer events for Discord
           >

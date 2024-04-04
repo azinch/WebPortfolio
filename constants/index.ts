@@ -372,15 +372,20 @@ export const SkillData = [
 
 export const Socials = [
   {
+    name: "Github",
+    src: "/github-logo.png",
+    link: "https://github.com",
+  },
+  {
     name: "LinkedIn",
     src: "/LI-In-Bug.png",
     link: "https://linkedin.com",
   },
-  {
+  /*{
     name: "Discord",
     src: "/discord.svg",
     link: "dummy",
-  },
+  },*/
 ];
 
 export const Projects = [
@@ -433,7 +438,7 @@ export const Projects = [
   {
     title: "Kotlin",
     text: "Chat app. Technological stack: Spring WebFlux, Kotlin Extensions and Coroutines, streaming with RSocket.",
-    src: "/spring-webflux-kotlin-rsocket.png",
+    src: "/spring-kotlin-chat-app.png",
   },
   {
     title: "Python",
